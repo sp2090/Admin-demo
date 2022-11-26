@@ -1,0 +1,84 @@
+.newpage{
+    width: 100%;
+    display: flex;
+}
+
+.newpagecontainer{
+    flex: 6;
+}
+
+.newpagetop, .newpagebottom{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.newpageleft{
+    flex: 1;
+    text-align: center;
+}
+
+.imgnewpage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newpageinputcon{
+    width: 40%;
+
+}
+
+input{
+width: 100%;
+padding: 5px;
+border: none;
+border-bottom: 1px solid gray;
+}
+
+.iconsetup{
+    padding-top: 20px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.newpageright{
+    flex: 2;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.firsttitle{
+    color: lightgray;
+    font-size: 18px;
+}
+
+.buttonnewpage{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+}
+
+.buttonwhole{
+padding-left: 50px;}

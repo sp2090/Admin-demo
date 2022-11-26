@@ -1,0 +1,54 @@
+.widget{
+     display: flex;
+     flex: 1;
+     padding: 10px;
+     justify-content: space-between;
+     -webkit-box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+
+.wleft, .wright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wtitle {
+    font-weight: bold;
+    color: gray;
+    font-size: 14px;
+}
+
+.wcounters{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.wlink{
+    width: max-content;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.picon{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}

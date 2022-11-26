@@ -1,0 +1,87 @@
+.featuref {
+    flex: 2;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.verti {
+    padding-bottom: 8px;
+}
+
+.feturechartf{
+    width: 100PX;
+    height: 100px;    
+}
+
+.topf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.bottomf{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.titlef{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.titlep{
+    font-weight: 100;
+    color: gray;
+}
+
+.amountp {
+    font-size: 30px;
+}
+
+.descp{
+    font-weight: 300;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+
+.itemftitle{
+    font-size: 14px;
+    color: gray;
+}
+
+.p
+
+.itemfresult{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.positivef{
+    color: green;
+}
+
+.negativef{
+    color: red;
+}
+
+.itemf{
+text-align: center;
+}
+
+.summaryf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
